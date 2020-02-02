@@ -18,6 +18,7 @@ RUN apk update && apk upgrade && apk add tar \
     php7-phar \
     php7-json \
     php7-openssl \
+    bash \
     && rm -rf /var/cache/apk/*
 
 EXPOSE 9505 50001
